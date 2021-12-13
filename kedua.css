@@ -1,0 +1,65 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: url(gambar/spikes.png);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color:rgb(153, 136, 136);
+    position:relative;
+    border: 5px solid #F25287;
+}
+.gambar{
+    height: 300px;
+    margin: 2px;
+    background-image: url(gambar/gmb.jpg);
+    background-size: cover;
+    border:4px solid #F7D9D9 ;
+}
+
+.main{
+    width: 496px;
+    padding: 39.8px;
+    margin: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    border:4px solid #F7D9D9 ;
+}
+.main img{
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid #F7D9D9;
+}
+
+.sidebar{
+    width: 496px ;
+    padding: 53px;
+    margin: 2px;
+    box-sizing: border-box;
+    float: right;
+    border:4px solid #F7D9D9;
+}
+
+.footer{
+    background-color:rgb(58, 51, 51);
+    padding: 2px;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+}
+
+.cf:before,
+.cf:after{
+    content: " ";
+    display: table;
+}
+.cf:after{
+    clear: both;
+}

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.konten{
+    text-align: center;
+}
+.main {
+    padding: 20px;
+    border-bottom:5px solid orchid;
+}
+.main img{
+    width: 100px;
+    border-radius: 50%;
+}
+.php{
+    padding: 30px;
+}
