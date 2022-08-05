@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir PHP</title>
-    <link rel="stylesheet" href="kedua.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <div class="container"> <!--Membungkus Semua Elemen-->
@@ -21,7 +21,7 @@
         
 
             <div class="sidebar">
-                <form action="ketiga.php" method="post">
+                <form action="seconds.php" method="post">
 
                     <!--Jenis Kelamin-->
                     <label for=""> Jenis Kelamin : </label>
